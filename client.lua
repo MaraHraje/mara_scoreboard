@@ -36,27 +36,3 @@ AddEventHandler('updatePlayerList', function(players)
         playerCount = #players
     })
 end)
-
--- Funkce pro zobrazení rozhraní pro odeslání zprávy
-function showSendMessage(player)
-    local sendMessage = document.getElementById('send-message')
-    sendMessage.classList.remove('hidden')
-
-    -- Uložení ID hráče, kterému se bude posílat zpráva
-    sendMessage.setAttribute('data-target-player-id', player.id)
-
-    -- Přidání event listeneru na tlačítko odeslat
-    document.getElementById('send-button').onclick = function()
-        local message = sendMessage.querySelector('textarea').value
-        local targetPlayerId = sendMessage.getAttribute('data-target-player-id')
-
-        -- Odeslání zprávy na server
-        TriggerServerEvent('sendPrivateMessage', targetPlayerId, message)
-
-        -- Debug: Výpis do konzole klienta
-        print("Odesílání zprávy hráči s ID: "..targetPlayerId.." Zpráva: "..message)
-
-        -- Skrytí rozhraní pro odeslání zprávy
-        hideSendMessage()
-    end
-end
