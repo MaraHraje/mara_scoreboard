@@ -1,9 +1,3 @@
-📌 [Preview]
-![image](https://github.com/user-attachments/assets/589c87ef-8b50-436d-b918-beb9ab57fd48) ![image](https://github.com/user-attachments/assets/212c01b8-57dc-4f7c-9a7e-2323c1a0bfb3)
-
-
-
-
 🔥 Features
 
 🕵️‍♂️ Player Search: Quickly find players using a convenient search bar.
@@ -34,3 +28,8 @@
 
 📩 Download now and elevate your server with this amazing scoreboard script!!
 
+
+
+
+📌 [Preview]
+![image](https://github.com/user-attachments/assets/589c87ef-8b50-436d-b918-beb9ab57fd48) ![image](https://github.com/user-attachments/assets/212c01b8-57dc-4f7c-9a7e-2323c1a0bfb3)
