@@ -8,6 +8,12 @@ version '1.0.0'
 
 ui_page 'html/scoreboard.html'
 
+files {
+    'html/scoreboard.html',
+    'html/scoreboard.css',
+    'html/scoreboard.js',
+}
+
 client_scripts {
     'client.lua'
 }
