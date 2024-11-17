@@ -1,3 +1,7 @@
+📌 [Preview] ![image](https://github.com/user-attachments/assets/589c87ef-8b50-436d-b918-beb9ab57fd48)
+
+
+
 🔥 Features
 
 🕵️‍♂️ Player Search: Quickly find players using a convenient search bar.
@@ -26,4 +30,5 @@
 - Give your players a useful tool while maintaining top-tier performance.
 - Completely free to download and use.
 
-📩 Download now and elevate your server with this amazing scoreboard script!
+📩 Download now and elevate your server with this amazing scoreboard script!!
+
